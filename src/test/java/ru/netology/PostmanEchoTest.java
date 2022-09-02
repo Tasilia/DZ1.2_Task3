@@ -20,7 +20,7 @@ public class PostmanEchoTest {
                 .post("/post")
 // Проверки
                 .then()
-                .statusCode(201)
+                .statusCode(200)
         ;
     }
 
